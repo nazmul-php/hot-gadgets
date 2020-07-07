@@ -4,17 +4,283 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOT | GADGET</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Raw CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<!-- Navbar -->
+<div class="container">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg w-100">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item active">
+                  <a class="nav-link text-secondary" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#categories">Categories</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#contract" >Contract Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+</div>
 
+<!-- Carousel Slider -->
+<div class="container mb-5">
+    <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-background" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1>Mackbook Pro</h1>
+                        <p class="lead">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                            <button class="btn btn-dark">Buy Now <i class='fas fa-arrow-right' style='font-size:20px'></i></button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1>Apple Speaker</h1>
+                        <p class="lead">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                            <button class="btn btn-dark">Buy Now <i class='fas fa-arrow-right' style='font-size:20px'></i></button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1>Binocular</h1>
+                        <p class="lead">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                            <button class="btn btn-dark">Buy Now <i class='fas fa-arrow-right' style='font-size:20px'></i></button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+</div>
 
+<!-- Smart Phones -->
+<div class="container mb-5">
+  <div class="row flex-row justify-content-between align-items-center">
+    <h3 id="products" class="font-weight-bold mb-3">SMARTPHONES</h3>
+    <p class="golden-text">See All</p>
+  </div>
+  <div class="row justify-content-between">
+  
+  <div class="col-md-4 col-sm-12">
+    <div class="card shadow ">
+      <div class="card-body">
+        <img src="images/phone/phone-2.png" class="card-img-top" alt="">
+        <h4 class="card-title text-center mt-2">iPhone 11 Pro</h4>
+        <p class="lead">Some quick example text to build on
+          the card title.</p>
+          <h5 class="text-center">$999</h5>
+      </div>
+      <div class="card-footer text-center border-top-0">
+        <button class="btn btn-dark">Buy Now <i class='fas fa-arrow-right' style='font-size:20px'></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-12">
+    <div class="card shadow">
+      <div class="card-body">
+        <img src="images/phone/phone-3.png" class="card-img-top" alt="">
+        <h4 class="card-title text-center mt-2">Samsung Note10+</h4>
+        <p class="lead">Some quick example text to build on
+          the card title.</p>
+          <h5 class="text-center">$699</h5>
+      </div>
+      <div class="card-footer text-center border-top-0">
+        <button class="btn btn-dark">Buy Now <i class='fas fa-arrow-right' style='font-size:20px'></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-12">
+    <div class="card shadow">
+      <div class="card-body">
+        <img src="images/phone/phone-1.png" class="card-img-top" alt="">
+        <h4 class="card-title text-center mt-2">Xiaomi 10 Pro</h4>
+        <p class="lead">Some quick example text to build on
+          the card title.</p>
+          <h5 class="text-center">$499</h5>
+      </div>
+      <div class="card-footer text-center border-top-0">
+        <button class="btn btn-dark">Buy Now <i class='fas fa-arrow-right' style='font-size:20px'></i></button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</div>
     
-    
+<!-- Laptop Notebooks -->
+<div class="container mb-5">
+  <div class="row flex-row justify-content-between align-items-center">
+    <h3 class="font-weight-bold mb-3">LAPTOPS</h3>
+    <p class="golden-text">See All</p>
+  </div>
+  <div class="row">
+  
+  <div class="col-md-4 col-sm-12">
+    <div class="card shadow ">
+      <div class="card-body">
+        <img src="images/laptop/product-1.png" class="card-img-top" alt="">
+        <h4 class="card-title text-center mt-2">Asus VivoBook </h4>
+        <p class="lead">Some quick example text to build on
+          the card title.</p>
+          <h5 class="text-center">$999</h5>
+      </div>
+      <div class="card-footer text-center border-top-0">
+        <button class="btn btn-dark">Buy Now <i class='fas fa-arrow-right' style='font-size:20px'></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-12">
+    <div class="card shadow">
+      <div class="card-body">
+        <img src="images/laptop/product-2.png" class="card-img-top" alt="">
+        <h4 class="card-title text-center mt-2">Razer Blade 15 </h4>
+        <p class="lead">Some quick example text to build on
+          the card title.</p>
+          <h5 class="text-center">$2699</h5>
+      </div>
+      <div class="card-footer text-center border-top-0">
+        <button id="categories" class="btn btn-dark">Buy Now <i class='fas fa-arrow-right' style='font-size:20px'></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-12">
+    <div class="card shadow">
+      <div class="card-body">
+        <img src="images/laptop/product-3.png" class="card-img-top" alt="">
+        <h4 class="card-title text-center mt-2">Xiaomi Notebook Pro</h4>
+        <p class="lead">Some quick example text to build on
+          the card title.</p>
+          <h5 class="text-center">$1199</h5>
+      </div>
+      <div class="card-footer text-center border-top-0">
+        <button class="btn btn-dark">Buy Now <i class='fas fa-arrow-right' style='font-size:20px'></i></button>
+      </div>
+    </div>
+  </div>
 
+  </div>
+
+</div>   
+
+<!-- Category Section -->
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-md-4 mx-auto">
+    <h2 class=" text-center font-weight-bold">CATEGORIES</h2>
+    <div class="catborder w-50 mx-auto" ></div>
+  </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-5 col-sm-12 d-flex flex-row justify-content-end align-items-center">
+      <div class="col-md-6">
+        <div class="shadow text-center py-4 pbox">
+          <img height="90" src="images/Categories/bag.png" alt="">
+          <h4 class="mt-3">Bag</h4>      
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="shadow text-center py-4 pbox mb-3">
+          <img height="90" src="images/Categories/perfume.png" alt="">
+          <h4 class="mt-3">Perfume</h4>      
+        </div>
+        <div class="shadow text-center py-4 pbox">
+          <img height="90" src="images/Categories/shoe.png" alt="">
+          <h4 class="mt-3">Shoes</h4>      
+        </div>
+      </div>
+    </div>
+    <div class="col-md-7 col-sm-12">
+      <img class="w-100" src="images/Categories/pale-order.png" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- Contract Us Section -->
+<div id="contract" class="container mb-5">
+  <div class="row text-center">
+    <div class="col-md-4 mx-auto">
+    <h2 class=" text-center font-weight-bold">CONTRACT US</h2>
+    <div class="catborder w-50 mx-auto" ></div>
+  </div>
+  <p class="text-center lead mt-4 w-100">If you have any query ! Feel free to do that using the from below.</p>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-6 col-sm-12">
+      <iframe class="rounded-lg shadow w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d45825.81265814079!2d90.40582723658304!3d23.801323909132584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1594123238783!5m2!1sen!2sbd"  height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div class="col-md-6 col-sm-12 text-secondary">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" placeholder="Enter Your Name">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="Email" class="form-control" placeholder="Enter Your Email">
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea name="" id="" class="form-control" ></textarea>
+      </div>
+      <button class="btn btn-outline-dark btn-block">Sent Message</button>
+    </div>
+  </div>
+</div>
+
+<footer class="text-center text-secondary">
+  <p> &copy; Hot Gadget Website | 2020 All Rights Reserved</p>
+</footer>
 
 <!-- Jquery Dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

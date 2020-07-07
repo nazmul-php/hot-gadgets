@@ -1,0 +1,17 @@
+.golden-text{
+    color: #FF8319;
+}
+.pbox{
+    border-radius: 0px 15px 0px 15px;
+}
+.catborder{
+    background-image: linear-gradient(to bottom,#FF9C35,#FFD019);
+    height: 10px;
+    border-radius: 10px;
+}
+.carousel-background{
+    background-image:url('images/banner-products/slider-bg.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
